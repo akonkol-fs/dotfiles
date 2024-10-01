@@ -35,6 +35,6 @@ cursor_blink_interval 0.5
 
 
 # BEGIN_KITTY_THEME
-# Kanagawa_dragon
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
