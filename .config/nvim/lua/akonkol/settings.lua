@@ -14,6 +14,7 @@ o.undofile = true
 o.undoreload = 10000
 o.cmdheight = 0
 o.termguicolors = true
+o.mouse = ""
 
 -- Run GoFmt when saving .go files
 local format_sync_grp = vim.api.nvim_create_augroup("GoFormat", {})
