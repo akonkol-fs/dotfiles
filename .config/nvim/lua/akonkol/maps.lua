@@ -12,7 +12,9 @@ vim.keymap.set({ "n", "v" }, "<leader>cc", "gcc", { remap = true })
 vim.keymap.set({ "n", "v" }, "<leader>ls", ":Lazy sync<CR>", { remap = true })
 
 -- fzf files in cwd
-vim.keymap.set("n", "<LocalLeader>ff", ":FzfLua git_files<CR>", { desc = "Fzf Git Files" })
+vim.keymap.set("n", "<LocalLeader>ff", ":FzfLua files<CR>", { desc = "Fzf Files" })
+vim.keymap.set("n", "<LocalLeader>fg", ":FzfLua git_files<CR>", { desc = "Fzf Git files" })
+vim.keymap.set("n", "<LocalLeader>fw", ":FzfLua live_grep<CR>", { desc = "Fzf grep word in files" })
 
 -- Preview colorschemes
 vim.keymap.set({ "n", "v" }, "<leader>cs", ":FzfLua colorschemes<CR>", { remap = true })

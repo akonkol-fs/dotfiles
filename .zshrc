@@ -35,3 +35,5 @@ alias vim='nvim'
 alias vi='nvim'
 PATH="$(brew --prefix)/opt/gnu-sed/libexec/gnubin:$PATH"
 echo -e "\033]50;SetProfile=under-the-sea-tweaked\a"
+if [ -e /usr/local/bin/brew ]; then eval "$(/usr/local/bin/brew shellenv)"; else eval "$(/opt/homebrew/bin/brew shellenv)"; fi
+source /Users/andrewkonkol/.fsprofile
